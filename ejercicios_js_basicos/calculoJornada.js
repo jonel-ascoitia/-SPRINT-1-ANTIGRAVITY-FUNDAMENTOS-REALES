@@ -22,3 +22,4 @@ function calcularJornadaEfectiva(horasEntrada, horasSalida, minPausa) {
 console.log("Cálculo de Jornada:");
 console.log(`De 8.5 a 17.5 con 60 mins de pausa -> ${calcularJornadaEfectiva(8.5, 17.5, 60)} (9h totales, 1h pausa = 8h netas)`);
 console.log(`De 9.0 a 14.0 con 15 mins de pausa -> ${calcularJornadaEfectiva(9.0, 14.0, 15)} (5h totales, 15m pausa = 4h y 45m netas)`);
+// Nueva prueba de jornada para Esteban
