@@ -16,3 +16,6 @@ Proyecto de control de horario desarrollado durante el **Sprint 1** de Fundament
 - **Día 1**: Driver (Antigravity) y Navigator (Usuario).
 - Cambio de roles programado.
 - Mínimo 3 commits por integrante/sesión.
+
+---
+*Desarrollado con Antigravity en el Sprint 1*
