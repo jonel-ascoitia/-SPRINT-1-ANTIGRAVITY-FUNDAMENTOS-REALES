@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Jornada Laboral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Control de Jornada Laboral</h1>
+
+        <section id="registro-usuario">
+            <h2>Registrar Usuario</h2>
+            <form id="form-usuario">
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <button type="submit">Crear Usuario</button>
+            </form>
+        </section>
+
+        <section id="registro-jornada">
+            <h2>Registrar Jornada</h2>
+            <form id="form-jornada">
+                <select id="select-usuario-jornada" class="select-usuario">
+                    <option value="">Seleccione Usuario</option>
+                </select>
+                <div class="time-inputs">
+                    <label>Entrada: <input type="datetime-local" id="hora-entrada" required></label>
+                    <label>Salida: <input type="datetime-local" id="hora-salida" required></label>
+                </div>
+                <button type="submit" id="btn-registrar-jornada">Registrar Jornada</button>
+            </form>
+        </section>
+
+        <section id="registro-pausa">
+            <h2>Registrar Pausa</h2>
+            <form id="form-pausa">
+                <select id="select-jornada-pausa">
+                    <option value="">Seleccione Jornada</option>
+                </select>
+                <input type="number" id="minutos-pausa" placeholder="Minutos de pausa" min="1" required>
+                <button type="submit">Agregar Pausa</button>
+            </form>
+        </section>
+
+        <section id="reporte">
+            <h2>Reporte de Actividad</h2>
+            <div class="report-buttons">
+                <button id="btn-reporte">Generar Reporte en Pantalla</button>
+                <button id="btn-exportar-csv" class="secondary-btn">Exportar CSV</button>
+            </div>
+            <div id="resultado-reporte"></div>
+        </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
