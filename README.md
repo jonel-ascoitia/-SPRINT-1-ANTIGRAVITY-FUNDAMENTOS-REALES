@@ -19,3 +19,6 @@ Proyecto de control de horario desarrollado durante el **Sprint 1** de Fundament
 
 ---
 *Desarrollado con Antigravity en el Sprint 1*
+
+## Actualización Día 2
+Se han añadido documentos de arquitectura, reglas de desarrollo y lógica intermedia de clases en la rama dev.
